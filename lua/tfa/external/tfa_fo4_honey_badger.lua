@@ -1,0 +1,30 @@
+local path = "shrimp/fo4/honey_badger/"
+local pref = "TFA_FO4_HB"
+	
+sound.Add({name = pref .. ".Loop", channel = CHAN_WEAPON, level = 150, pitch = 100, sound = ")" .. path .. "WPN_HoneyBadger_Fire_Auto_0900rpm_Loop.wav"})
+sound.Add({name = pref .. ".LoopTail", channel = CHAN_WEAPON, level = 150, pitch = 100, sound = ")" .. path .. "WPN_HoneyBadger_Fire_Auto_0780rpm_LPM_Tail.wav"})
+sound.Add({name = pref .. ".Loop_Silenced", channel = CHAN_WEAPON, level = 150, pitch = 100, sound = ")" .. path .. "WPN_HoneyBadger_Fire_Sup_Auto_0900rpm_Loop.wav"})
+sound.Add({name = pref .. ".Loop_SilencedTail", channel = CHAN_WEAPON, level = 150, pitch = 100, sound = ")" .. path .. "WPN_HoneyBadger_Fire_Sup_Auto_0900rpm_Tail.wav"})
+
+//TFA.AddSound(pref..".Silenced", CHAN_USER_BASE, 1, 140, {99, 101}, path.."G19-1-Suppressed.wav", ")")
+//TFA.AddSound(pref..".FireLoop_Silenced", CHAN_USER_BASE, 1, 140, {99, 101}, path.."g19-loop_supp.wav", ")")
+
+TFA.AddWeaponSound(pref .. ".2Adjust", path .. "2Adjust.wav")
+TFA.AddWeaponSound(pref .. ".2EndGrab", path .. "2EndGrab.wav")
+TFA.AddWeaponSound(pref .. ".2EndShoulder", path .. "2EndShoulder.wav")
+TFA.AddWeaponSound(pref .. ".2MagGrab", path .. "2MagGrab.wav")
+TFA.AddWeaponSound(pref .. ".2MagLock", path .. "2MagLock.wav")
+TFA.AddWeaponSound(pref .. ".2MagOut", path .. "2MagOut.wav")
+TFA.AddWeaponSound(pref .. ".2MagPush", path .. "2MagPush.wav")
+TFA.AddWeaponSound(pref .. ".2MagTouch", path .. "2MagTouch.wav")
+TFA.AddWeaponSound(pref .. ".2StartReload", path .. "2StartReload.wav")
+TFA.AddWeaponSound(pref .. ".BoltBack", path .. "BoltBack.wav")
+TFA.AddWeaponSound(pref .. ".BoltForward", path .. "BoltForward.wav")
+TFA.AddWeaponSound(pref .. ".EndReload", path .. "EndReload.wav")
+TFA.AddWeaponSound(pref .. ".LReload", path .. "LReload.wav")
+TFA.AddWeaponSound(pref .. ".MagGrab", path .. "MagGrab.wav")
+TFA.AddWeaponSound(pref .. ".MagHitRelease", path .. "MagHitRelease.wav")
+TFA.AddWeaponSound(pref .. ".MagIn", path .. "MagIn.wav")
+TFA.AddWeaponSound(pref .. ".MagOut", path .. "MagOut.wav")
+TFA.AddWeaponSound(pref .. ".StartReload", path .. "StartReload.wav")
+TFA.AddWeaponSound(pref .. ".StockClose", path .. "StockClose.wav")

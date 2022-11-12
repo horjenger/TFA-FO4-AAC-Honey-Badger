@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/shrimp/fo4/honey_badger/HoneyBadger_Lower_D"
+	"$bumpmap" "models/shrimp/fo4/honey_badger/HoneyBadger_Lower_N"
+	"$phongexponenttexture" "models/shrimp/fo4/honey_badger/HoneyBadger_Lower_S"
+	"$phong" "1"
+	"$phongboost" "5"	
+	"$phongexponent" "15"	
+	"$phongalbedotint"			"1"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$color2"	"[0.76 0.76 0.76]"
+	"$phongtint" "[0.40 0.24 0.06]"
+	"$rimlight"               1
+	"$rimlightexponent"       20
+	"$rimlightboost"          2
+	"$rimmask" 	1
+	"$envmap"	"env_cubemap"
+	"$envmaptint"			"[0.041 0.024 0.003]"
+}
+
+

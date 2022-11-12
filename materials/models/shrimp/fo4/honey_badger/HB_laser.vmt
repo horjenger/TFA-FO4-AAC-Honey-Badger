@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/shrimp/fo4/honey_badger/LaserSight_Micro_D"
+	"$bumpmap" "models/shrimp/fo4/honey_badger/LaserSight_Micro_N"
+	"$phongexponenttexture" "models/shrimp/fo4/honey_badger/LaserSight_Micro_S"
+	"$phong" "1"
+	"$phongboost" "90"	
+	"$phongexponent" "10"	
+	"$normalmapalphaenvmapmask" 	"1"
+	"$phongalbedotint" 			"1"
+	"$phongfresnelranges"	"[0.5 0.6 1]"
+	"$rimmask" 1
+	"$rimlight"               1
+	"$rimlightexponent"       25
+	"$envmap"	"env_cubemap"
+	"$envmaptint"			"[0.01 0.01 0.01]"
+}
+
+
+
+
