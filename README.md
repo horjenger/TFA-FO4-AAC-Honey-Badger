@@ -6,6 +6,7 @@ AAC Honey Badger from Fallout 4 mod on TFA Base
 ## Requestments:
 * TFA Base
 * [TFA FO4 Base](https://github.com/horjenger/TFA-FO4-Base)
+* [TFA FO4 Glock 19X](https://github.com/horjenger/TFA-FO4-Glock19X)
 * TFA Insurgency: Shared Parts
 
 ## Notes:
