@@ -4,7 +4,7 @@ end
 
 ATTACHMENT.Name = "Barska sight"
 ATTACHMENT.ShortName = "BARSKA"
-ATTACHMENT.Icon = "entities/glock_sight_rds.png"
+ATTACHMENT.Icon = "entities/tfa_qmark.png"
 ATTACHMENT.Description = {
 
 }

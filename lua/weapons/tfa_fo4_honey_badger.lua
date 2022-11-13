@@ -324,7 +324,7 @@ SWEP.SightOffset_VORTEX = SWEP.SightOffset_Nil + Vector(0, 0, -0.07)
 SWEP.Attachments = {	
 	[1] = { atts = { "fo4_hb_mag_30e", "fo4_hb_mag_30", "fo4_hb_mag_60" } },
 	[2] = { atts = { "am_match", "am_magnum", "am_gib", "tfa_mb_penrnd"} },
-	[3] = { atts = { "fo4_hb_holosun", "fo4_hb_aimpoint_riser", "fo4_hb_vortex" } },
+	[3] = { atts = { "fo4_hb_holosun", "fo4_hb_aimpoint_riser", "fo4_hb_barska", "fo4_hb_vortex" } },
 	[4] = { atts = { "fo4_hb_supp", "fo4_hb_supp_legion", "fo4_hb_supp_reinforce" } },
 	[5] = { atts = { "fo4_hb_laser", "fo4_hb_flashlight"} },
 	[6] = { atts = { "fo4_hb_fortis_ch", "fo4_hb_fortis_nitride" } },
@@ -367,7 +367,7 @@ SWEP.VElements = {
 	},
 	["sight_barska"] = {
 		type = "Model",
-		model = "models/weapons/c_fo4_honeybadger_barska.mdl",
+		model = "models/weapons/c_fo4_honeybadger_barska_3.mdl",
 		bone = "Weapon",
 		rel = "",
 		pos = Vector(0, 0, 0),
