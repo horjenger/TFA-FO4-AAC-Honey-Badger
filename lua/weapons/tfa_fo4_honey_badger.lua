@@ -65,8 +65,8 @@ SWEP.Primary.KickDown = 0.092 -- This is the maximum downwards recoil (skeet)
 SWEP.Primary.KickHorizontal = 0.03 -- This is the maximum sideways recoil (no real term)
 SWEP.Primary.StaticRecoilFactor = 0.76 --Amount of recoil to directly apply to EyeAngles.  Enter what fraction or percentage (in decimal form) you want.  This is also affected by a convar that defaults to 0.5.
 --Firing Cone Related
-SWEP.Primary.Spread = .027 --This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
-SWEP.Primary.IronAccuracy = .0069 -- Ironsight accuracy, should be the same for shotguns
+SWEP.Primary.Spread = .0245 --This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
+SWEP.Primary.IronAccuracy = .0045 -- Ironsight accuracy, should be the same for shotguns
 --Unless you can do this manually, autodetect it.  If you decide to manually do these, uncomment this block and remove this line.
 SWEP.Primary.SpreadMultiplierMax = 1.9 --How far the spread can expand when you shoot. Example val: 2.5
 SWEP.Primary.SpreadIncrement = 0.15 --What percentage of the modifier is added on, per shot.  Example val: 1/3.5
@@ -157,8 +157,8 @@ SWEP.ShellTime = .35 -- For shotguns, how long it takes to insert a shell.
 SWEP.RunSightsPos = Vector(0, 0, 0)
 SWEP.RunSightsAng = Vector(0, 0, 0)
 --[[SAFETY]]--
-SWEP.SafetyPos = Vector(3, -5, -5)
-SWEP.SafetyAng = Vector(40, 5, 0)
+SWEP.SafetyPos = Vector(7, -4, -2)
+SWEP.SafetyAng = Vector(-12, 54, -12)
 --[[IRONSIGHTS]]--
 SWEP.data = {}
 SWEP.data.ironsights = 1 --Enable Ironsights
@@ -323,11 +323,12 @@ SWEP.SightOffset_VORTEX = SWEP.SightOffset_Nil + Vector(0, 0, -0.07)
 
 SWEP.Attachments = {	
 	[1] = { atts = { "fo4_hb_mag_30e", "fo4_hb_mag_30", "fo4_hb_mag_60" } },
-	[2] = { atts = { "fo4_hb_holosun", "fo4_hb_aimpoint_riser", "fo4_hb_vortex" } },
-	[3] = { atts = { "fo4_hb_supp", "fo4_hb_supp_legion", "fo4_hb_supp_reinforce" } },
-	[4] = { atts = { "fo4_hb_laser", "fo4_hb_flashlight"} },
-	[5] = { atts = { "fo4_hb_fortis_ch", "fo4_hb_fortis_nitride" } },
-	[6] = { atts = { "fo4_hb_skin_spec_ops" } },
+	[2] = { atts = { "am_match", "am_magnum", "am_gib", "tfa_mb_penrnd"} },
+	[3] = { atts = { "fo4_hb_holosun", "fo4_hb_aimpoint_riser", "fo4_hb_vortex" } },
+	[4] = { atts = { "fo4_hb_supp", "fo4_hb_supp_legion", "fo4_hb_supp_reinforce" } },
+	[5] = { atts = { "fo4_hb_laser", "fo4_hb_flashlight"} },
+	[6] = { atts = { "fo4_hb_fortis_ch", "fo4_hb_fortis_nitride" } },
+	[7] = { atts = { "fo4_hb_skin_spec_ops" } },
 }
 
 SWEP.AttachmentExclusions   = {
