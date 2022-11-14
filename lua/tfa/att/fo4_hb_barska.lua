@@ -13,11 +13,19 @@ ATTACHMENT.WeaponTable = {
         ["Bodygroups_V"] = {
         [3] =  2,
     },
+        ["Bodygroups_W"] = {
+        [2] =  2,
+    },
 	["VElements"] = {
 		["sight_barska"] = {
 			["active"] = true
 		},
 		["sight_barska_lens"] = {
+			["active"] = true
+		}
+	},
+	["WElements"] = {
+		["sight_barska"] = {
 			["active"] = true
 		}
 	},
