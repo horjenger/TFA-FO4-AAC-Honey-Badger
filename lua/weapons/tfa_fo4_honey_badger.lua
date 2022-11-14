@@ -202,8 +202,11 @@ SWEP.Customize_Mode = TFA.Enum.LOCOMOTION_HYBRID
 SWEP.Idle_Mode = TFA.Enum.IDLE_ANI
 
 
-SWEP.SequenceRateOverride = {
-	["inspect"] = 1
+SWEP.SequenceLengthOverride = {
+	["inspect"] = 0.9,
+	["reload"] = 2.5,
+	["reload_30"] = 3.066666841506958,
+	["reload_60"] = 3.5,
 }
 
 --MDL Animations Below
