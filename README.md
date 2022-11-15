@@ -1,6 +1,6 @@
 ![alt text](https://i.imgur.com/yadlKrc.png) 
 
-# TFA-FO4-Glock19X
+# TFA-FO4-AAC-Honey-Badger
 AAC Honey Badger from Fallout 4 mod on TFA Base
 
 ## Requestments:
