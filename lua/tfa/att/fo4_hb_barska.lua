@@ -32,11 +32,6 @@ ATTACHMENT.WeaponTable = {
 	["IronSightsPos"] = function(wep, val)
 		return val + wep.SightOffset_BARSKA or val
 	end,
-	["Secondary"] = {
-		["IronFOV"] = function(wep, val)
-			return val * 1
-		end
-	},
 	["ScopeVElement"] = "sight_barska",
 	["Reticle"] = "models/shrimp/fo4/honey_badger/HB_barska_reticle"
 }

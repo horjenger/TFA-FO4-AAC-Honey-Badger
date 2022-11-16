@@ -32,11 +32,6 @@ ATTACHMENT.WeaponTable = {
 	["IronSightsPos"] = function(wep, val)
 		return val + wep.SightOffset_HOLOSUN or val
 	end,
-	["Secondary"] = {
-		["IronFOV"] = function(wep, val)
-			return val * 1
-		end
-	},
 	["ScopeVElement"] = "sight_holosun",
 	["Reticle"] = "models/shrimp/fo4/honey_badger/HB_holosun_reticle"
 }

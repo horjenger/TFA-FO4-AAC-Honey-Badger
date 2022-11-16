@@ -32,11 +32,6 @@ ATTACHMENT.WeaponTable = {
 	["IronSightsPos"] = function(wep, val)
 		return val + wep.SightOffset_AIMPOINT or val
 	end,
-	["Secondary"] = {
-		["IronFOV"] = function(wep, val)
-			return val * 1
-		end
-	},
 	["ScopeVElement"] = "sight_aimpoint_riser",
 	["Reticle"] = "models/shrimp/fo4/glock19x/glock_rds_reticle"
 }

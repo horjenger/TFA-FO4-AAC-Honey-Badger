@@ -4,8 +4,8 @@ end
 
 ATTACHMENT.Name = "Extended barrel"
 ATTACHMENT.Description = {
-	TFA.AttachmentColors["="], "Weight in the front of the weapon to reduce muzzle climb and increase accuracy",
 	TFA.AttachmentColors["+"], "Reduces vertical recoil by 10%",
+	TFA.AttachmentColors["+"], "40% less spread",
 	TFA.AttachmentColors["-"], "Increases weight of the weapon",
 }
 ATTACHMENT.Icon = "entities/tfa_qmark.png" --Revers to label, please give it an icon though!  This should be the path to a png, like "entities/tfa_ammo_match.png"
@@ -15,6 +15,10 @@ ATTACHMENT.WeaponTable = {
 	["Primary"] = {
 		["KickUp"] = function( wep, stat ) return stat * 0.9 end,
 		["KickDown"] = function( wep, stat ) return stat * 0.9 end,
+		["Spread"] = function( wep, stat ) return stat * 0.75 end,
+	},
+	["Secondary"] = {
+		["IronAccuracy"] = function( wep, stat ) return stat * 0.75 end,
 	},
 	["MoveSpeed"] = function( wep, stat ) return stat * 0.95 end,
 	["IronSightsMoveSpeed"] = function( wep, stat ) return stat * 0.95 end,

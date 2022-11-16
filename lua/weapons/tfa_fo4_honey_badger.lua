@@ -60,13 +60,13 @@ SWEP.Primary.AmmoConsumption = 1 --Ammo consumed per shot
 --Pistol, buckshot, and slam like to ricochet. Use AirboatGun for a light metal peircing shotgun pellets
 SWEP.DisableChambering = true --Disable round-in-the-chamber
 --Recoil Related
-SWEP.Primary.KickUp = 0.1 -- This is the maximum upwards recoil (rise)
+SWEP.Primary.KickUp = 0.3 -- This is the maximum upwards recoil (rise)
 SWEP.Primary.KickDown = 0.092 -- This is the maximum downwards recoil (skeet)
 SWEP.Primary.KickHorizontal = 0.03 -- This is the maximum sideways recoil (no real term)
 SWEP.Primary.StaticRecoilFactor = 0.76 --Amount of recoil to directly apply to EyeAngles.  Enter what fraction or percentage (in decimal form) you want.  This is also affected by a convar that defaults to 0.5.
 --Firing Cone Related
-SWEP.Primary.Spread = .0245 --This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
-SWEP.Primary.IronAccuracy = .0045 -- Ironsight accuracy, should be the same for shotguns
+SWEP.Primary.Spread = .025 --This is hip-fire acuracy.  Less is more (1 is horribly awful, .0001 is close to perfect)
+SWEP.Primary.IronAccuracy = .01 -- Ironsight accuracy, should be the same for shotguns
 --Unless you can do this manually, autodetect it.  If you decide to manually do these, uncomment this block and remove this line.
 SWEP.Primary.SpreadMultiplierMax = 1.9 --How far the spread can expand when you shoot. Example val: 2.5
 SWEP.Primary.SpreadIncrement = 0.15 --What percentage of the modifier is added on, per shot.  Example val: 1/3.5
@@ -162,7 +162,7 @@ SWEP.SafetyAng = Vector(-12, 54, -12)
 --[[IRONSIGHTS]]--
 SWEP.data = {}
 SWEP.data.ironsights = 1 --Enable Ironsights
-SWEP.Secondary.IronFOV = 88 -- How much you 'zoom' in. Less is more!  Don't have this be <= 0.  A good value for ironsights is like 70.
+SWEP.Secondary.IronFOV = 85 -- How much you 'zoom' in. Less is more!  Don't have this be <= 0.  A good value for ironsights is like 70.
 SWEP.IronSightsPos = Vector(0.1, -2, 0)
 SWEP.IronSightsAng = Vector(0.2, 0.7, 0)
 --[[INSPECTION]]--
@@ -204,8 +204,8 @@ SWEP.Idle_Mode = TFA.Enum.IDLE_ANI
 
 SWEP.SequenceLengthOverride = {
 	["inspect"] = 0.9,
-	["reload"] = 2.5,
-	["reload_30"] = 3.066666841506958,
+	["reload"] = 2.65,
+	["reload_30"] = 3.056666841506958,
 	["reload_60"] = 3.5,
 }
 
@@ -269,7 +269,7 @@ SWEP.ShellAttachment			= "shell" 		-- Should be "2" for CSS models or "shell" fo
 SWEP.MuzzleFlashEnabled = true --Enable muzzle flash
 SWEP.MuzzleAttachmentRaw = 1 --This will override whatever string you gave.  This is the raw attachment number.  This is overridden or created when a gun makes a muzzle event.
 SWEP.AutoDetectMuzzleAttachment = false --For multi-barrel weapons, detect the proper attachment?
-SWEP.MuzzleFlashEffect = "tfa_muzzleflash_smg" --Change to a string of your muzzle flash effect.  Copy/paste one of the existing from the base.
+SWEP.MuzzleFlashEffect = "tfa_muzzleflash_rifle" --Change to a string of your muzzle flash effect.  Copy/paste one of the existing from the base.
 SWEP.SmokeParticle = nil --Smoke particle (ID within the PCF), defaults to something else based on holdtype; "" to disable
 --Shell eject override
 SWEP.LuaShellEject = true --Enable shell ejection through lua?
@@ -456,7 +456,7 @@ SWEP.VElements = {
 		bone = "A_RenderReticle",
 		pos = Vector(0, 0, 0),
 		angle = Angle(0, 0, 90),
-		size = 0.15,
+		size = 0.13,
 		draw_func_outer = FO4DrawSingleReticle(),
 		active = false
 	},
