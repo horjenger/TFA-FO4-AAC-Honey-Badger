@@ -162,7 +162,7 @@ SWEP.SafetyAng = Vector(-12, 54, -12)
 --[[IRONSIGHTS]]--
 SWEP.data = {}
 SWEP.data.ironsights = 1 --Enable Ironsights
-SWEP.Secondary.IronFOV = 85 -- How much you 'zoom' in. Less is more!  Don't have this be <= 0.  A good value for ironsights is like 70.
+SWEP.Secondary.IronFOV = 82 -- How much you 'zoom' in. Less is more!  Don't have this be <= 0.  A good value for ironsights is like 70.
 SWEP.IronSightsPos = Vector(0.1, -2, 0)
 SWEP.IronSightsAng = Vector(0.2, 0.7, 0)
 --[[INSPECTION]]--
@@ -313,13 +313,13 @@ function FO4DrawSingleReticle()
 end
 
 SWEP.SightOffset_Nil = Vector(0, 0, 0)
-SWEP.SightOffset_HOLOSUN = SWEP.SightOffset_Nil + Vector(-0.05, -3, 0.565)
+SWEP.SightOffset_HOLOSUN = SWEP.SightOffset_Nil + Vector(-0.05, -2.5, 0.565)
 
 SWEP.SightOffset_Nil = Vector(0, 0, 0)
-SWEP.SightOffset_BARSKA = SWEP.SightOffset_Nil + Vector(-0.03, -2, -0.11)
+SWEP.SightOffset_BARSKA = SWEP.SightOffset_Nil + Vector(-0.03, -2.5, -0.11)
 
 SWEP.SightOffset_Nil = Vector(0, 0, 0)
-SWEP.SightOffset_AIMPOINT = SWEP.SightOffset_Nil + Vector(-0.035, -3, -0.31)
+SWEP.SightOffset_AIMPOINT = SWEP.SightOffset_Nil + Vector(-0.035, -2.5, -0.31)
 
 SWEP.SightOffset_Nil = Vector(0, 0, 0)
 SWEP.SightOffset_VORTEX = SWEP.SightOffset_Nil + Vector(0, 0, -0.07)
