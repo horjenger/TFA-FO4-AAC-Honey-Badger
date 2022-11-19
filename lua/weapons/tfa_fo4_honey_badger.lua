@@ -41,7 +41,7 @@ SWEP.IronInSound = Sound("SHRIMP_CUSTOM.ADSIn") --Sound to play when ironsightin
 SWEP.IronOutSound = Sound("SHRIMP_CUSTOM.ADSOut") --Sound to play when ironsighting out?  nil for default
 --Bash
 SWEP.BashBase = true
-SWEP.Secondary.BashDamage = 20
+SWEP.Secondary.BashDamage = 30
 --Silencing
 SWEP.CanBeSilenced = false --Can we silence?  Requires animations.
 SWEP.Silenced = false --Silenced by default?
@@ -92,9 +92,9 @@ SWEP.ViewModelFOV			= 65		-- This controls how big the viewmodel looks.  Less is
 SWEP.ViewModelFlip			= false		-- Set this to true for CSS models, or false for everything else (with a righthanded viewmodel.)
 SWEP.SprintFOVOffset = 0
 SWEP.UseHands = true --Use gmod c_arms system.
-SWEP.VMPos = Vector( 0, 0.9, 0)
+SWEP.VMPos = Vector( 0, 0.5, 0)
 SWEP.VMAng = Vector( 0, 0, 0)
-SWEP.CrouchPos = Vector( 0, 1.3, 0.5)
+SWEP.CrouchPos = Vector( 0, 1, 0.5)
 SWEP.VMPos_Additive = false --Set to false for an easier time using VMPos. If true, VMPos will act as a constant delta ON TOP OF ironsights, run, whateverelse
 SWEP.CenteredPos = nil --The viewmodel positional offset, used for centering.  Leave nil to autodetect using ironsights.
 SWEP.CenteredAng = nil --The viewmodel angular offset, used for centering.  Leave nil to autodetect using ironsights.
@@ -463,6 +463,7 @@ SWEP.VElements = {
 	["flashlight"] = { type = "Model", model = "models/weapons/c_fo4_honeybadger_flashlight.mdl", bone = "SharedAttach", rel = "", pos = Vector(0, 0, 0), angle = Angle(0, 0, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, bonemerge = true, active = false },
 	["laser"] = { type = "Model", model = "models/weapons/c_fo4_honeybadger_laser.mdl", bone = "SharedAttach", rel = "", pos = Vector(0, 0, 0), angle = Angle(0, 0, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, bonemerge = true, active = false },
 	["laser_beam"] = { type = "Model", model = "models/tfa/lbeam.mdl", bone = "LaserSightBeam", rel = "laser", pos = Vector(0, 0, 0), angle = Angle(0, 90, 0), size = Vector(0.9, 0.6, 0.6), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, bonemerge = false, active = false },
+	["knife"] = { type = "Model", model = "models/weapons/fo4_shared/c_knife.mdl", bone = "AnimObjectR1", rel = "", pos = Vector(0, 0, 0), angle = Angle(0, 0, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, bonemerge = true, active = true },
 }
 
 SWEP.WElements = {
