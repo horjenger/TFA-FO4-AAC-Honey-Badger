@@ -87,7 +87,7 @@ SWEP.ProjectileEntity = nil --Entity to shoot
 SWEP.ProjectileVelocity = 0 --Entity to shoot's velocity
 SWEP.ProjectileModel = nil --Entity to shoot's model
 --[[VIEWMODEL]]--
-SWEP.ViewModel			= "models/weapons/c_fo4_honeybadger.mdl" --Viewmodel path
+SWEP.ViewModel			= "models/weapons/c_fo4_honeybadger_grip.mdl" --Viewmodel path
 SWEP.ViewModelFOV			= 65		-- This controls how big the viewmodel looks.  Less is more.
 SWEP.ViewModelFlip			= false		-- Set this to true for CSS models, or false for everything else (with a righthanded viewmodel.)
 SWEP.SprintFOVOffset = 0
@@ -483,6 +483,16 @@ DEFINE_BASECLASS( SWEP.Base )
 
 SWEP.EventTable = {
 	["reload"] = {
+		{time = 0, type = "sound", value = Sound("TFA_FO4_HB.StartReload")},
+		{time = 0.20000000298023224, type = "sound", value = Sound("TFA_FO4_HB.MagOut")},
+		{time = 0.7333333492279053, type = "sound", value = Sound("TFA_FO4_HB.MagGrab")},
+		{time = 1.0666667222976685, type = "sound", value = Sound("TFA_FO4_HB.2MagPush")},
+		{time = 1.3333333730697632, type = "sound", value = Sound("TFA_FO4_HB.2MagLock")},
+		{time = 2.0, type = "sound", value = Sound("TFA_FO4_HB.BoltBack")},
+		{time = 2.2333333492279053, type = "sound", value = Sound("TFA_FO4_HB.BoltForward")},
+		{time = 2.5, type = "sound", value = Sound("TFA_FO4_HB.EndReload")}
+	},
+	["reload_grip"] = {
 		{time = 0, type = "sound", value = Sound("TFA_FO4_HB.StartReload")},
 		{time = 0.20000000298023224, type = "sound", value = Sound("TFA_FO4_HB.MagOut")},
 		{time = 0.7333333492279053, type = "sound", value = Sound("TFA_FO4_HB.MagGrab")},
